@@ -71,14 +71,7 @@ export default {
           icon: "warning",
           message: "Acepte terminos",
         });
-      } else {
-  $q.notify({
-    color: 'green-4',
-    textColor: 'white',
-    icon: 'cloud_done',
-    message: 'Submitted'
-  })
-  myform.value.resetValidation()
+      } 
     };
     const reset = () => {
       producto.value = null;
